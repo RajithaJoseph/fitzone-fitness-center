@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="css/aboutUs.css">
+        <link rel="stylesheet" type="text/css" href="css/styles.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css">
+        <link rel="icon" href="assets/logo2.png" type="image/x-icon">
+        
+        <style>
+          .blog-heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 0px;
+}
+.blog-heading span {
+  color: white;
+  font-size: 30px;
+}
+.blog-heading h3 {
+  font-size: 55px;
+  color: white;
+  font-weight: 500;
+}
+        .blog-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0px;
+  flex-wrap: wrap;
+}
+.blog-box {
+  width: 350px;
+  background-color: #1f2125;
+  border: 3px solid #6a3093;
+  margin: 20px;
+  border-radius: 15px;
+}
+.blog-img {
+  width: 100%;
+  height: auto;
+}
+.blog-img img {
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+  object-position: center;
+  border-top-left-radius: 13px;
+  border-top-right-radius: 13px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+  border: none;
+}
+.blog-text {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+}
+.blog-text span {
+  color: #d1d5db;
+  font-size: 0.9rem;
+}
+.blog-text .blog-title {
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: white;
+}
+.blog-text .blog-title:hover {
+  color: #a044ff;
+  transition: all ease 0.3s;
+}
+.blog-text p {
+  color: #d1d5db;
+  font-size: 0.9rem;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin: 20px 0px;
+}
+.blog-text a {
+  color: white;
+}
+.blog-text a:hover {
+  color: #a044ff;
+  transition: all ease 0.3s;
+}
+
+
+
+@media (max-width: 1250px) {
+  .blog-box {
+    width: 300px;
+  }
+}
+@media (max-width: 1100px) {
+  .blog-box {
+    width: 80%;
+  }
+}
+@media (max-width: 700px) {
+  .blog-box {
+    margin: 20px 10px;
+    width: 100%;
+  }
+  .blog {
+    padding: 20px;
+  }
+}
+
+        </style>
+        <title>About Us</title>
+    </head>
+    <body>
+    <nav>
+      <div class="nav__logo">
+        <a href="#"><img src="assets/logo2.png" alt="logo" /></a>
+        
+      </div>
+      <button class="nav__toggle" aria-label="toggle navigation">
+        <span class="nav__hamburger"></span>
+        <span class="nav__hamburger"></span>
+        <span class="nav__hamburger"></span>
+      </button>
+      <ul class="nav__links">
+        <li class="link"><a href="index.html">Home</a></li>
+        <li class="link"><a href="index.html#service-header">Service</a></li>
+        <li class="link"><a href="programs.html">Programs</a></li>
+        <li class="link"><a href="plans.html">Memberships</a></li>
+        <li class="link"><a href="schedule.html">Schedule</a></li>
+        <li class="link"><a href="about us.html">About Us</a></li>
+        <li class="link"><a href="blogs.html">Blog</a></li>
+        <li class="link"><a href="contact us.php">Contact Us</a></li>
+      </ul>
+      
+        <button class="btn" onclick="window.location.href='login_form.php'">Login</button>
+      
+    </nav>
+        <section class="hero">
+            <div class="heading">
+                <h1>About Us</h1>
+            </div>
+            <div class="container">
+                <div class="hero-content">
+                    <h2>Welcome to Fitzone</h2>
+                    <p>Welcome to FitZone Fitness Center, your new destination 
+                    for fitness excellence in Kurunegala! At FitZone, we’re
+                    dedicated to helping you achieve your health and wellness 
+                    goals with our state-of-the-art facilities, diverse fitness
+                    programs, and expert trainers. From personalized training sessions 
+                    and group classes to nutrition counseling, we offer everything you 
+                    need to succeed on your fitness journey. Our passionate team is here
+                    to motivate, guide, and support you every step of the way. Join FitZone 
+                    Fitness Center, and let’s work together toward a stronger, healthier you!</p>
+                   
+                </div>
+                <div class="hero-image">
+                    <img src="assets/aboutus.jpg" alt="About Us">
+                </div>
+            </div>
+            <section class="blog">
+              <div class="blog-heading">
+                <h3>Our Trainers</h3>
+                
+              </div>
+        
+              <!-- blog container -->
+              <div class="blog-container">
+                <!-- box-1 -->
+                <div class="blog-box">
+                  <div class="blog-img">
+                    <img src="assets/trainer2.jpg" alt="Blog" />
+                  </div>
+                  <div class="blog-text">
+                   
+                    <a href="#" class="blog-title">Tony Robbins</a>
+                    <p>
+                      Specializes in personal development, peak performance,
+                       and motivational coaching. He focuses on helping individuals 
+                       improve their mindset and achieve their goals in both personal and professional life.
+                    </p>
+                    <a href="#">Read More</a>
+                  </div>
+                </div>
+                <!-- box-2 -->
+                <div class="blog-box">
+                  <div class="blog-img">
+                    <img src="assets/trainer.jpg" alt="Blog" />
+                  </div>
+                  <div class="blog-text">
+                   
+                    <a href="#" class="blog-title"
+                      >Joe Wicks </a
+                    >
+                    <p>
+                      Specializes in fitness and nutrition, 
+                      offering online training programs focused on weight loss,
+                       body transformation, and healthy eating.
+                    </p>
+                    <a href="#">Read More</a>
+                  </div>
+                </div>
+                <!-- box-3 -->
+                <div class="blog-box">
+                  <div class="blog-img">
+                    <img src="assets/trainer1.jpg" alt="Blog" />
+                  </div>
+                  <div class="blog-text">
+                    
+                    <a href="#" class="blog-title"
+                      >Mel Robbins</a
+                    >
+                    <p>
+                      Specializes in mindset, productivity, and behavior change.
+                       Her work focuses on practical tools for overcoming procrastination,
+                        building habits, and boosting self-confidence.
+                    </p>
+                    <a href="#">Read More</a>
+                  </div>
+                </div>
+        </section>
+        <footer class="section__container footer__container" style="background-color: black;">
+           
+            <div class="footer__col">
+              <div class="footer__logo"><img src="assets/logo2.png" alt="logo" /></div>
+              <p>
+              
+                Begin your journey to a healthier, stronger you with our unbeatable membership
+                options. Let’s work, achieve, and succeed together!
+              </p>
+              <div class="footer__socials">
+                <a href="https://web.facebook.com"><i class="ri-facebook-fill"></i></a>
+                <a href="https://www.instagram.com"><i class="ri-instagram-line"></i></a>
+                <a href="https://x.com"><i class="ri-twitter-fill"></i></a>
+              </div>
+            </div>
+           
+            <div class="footer__col">
+              <h4>About Us</h4>
+              <a href="blogs.html">Blogs</a>
+              <a href="#">Security</a>
+              <a href="#">Careers</a>
+            </div>
+            <div class="footer__col">
+              <h4>Contact</h4>
+              <a href="contact us.php">Contact Us</a>
+              <a href="#">Privacy Policy</a>
+              <a href="#">Terms & Conditions</a>
+              <a href="#">BMI Calculator</a>
+            </div>
+          </footer>
+          <div class="footer__bar">
+            Copyright © 2024 Designed by Rajitha Joseph. All rights reserved.
+          </div>
+          <script>
+            let lastScrollY = window.scrollY;
+      
+            window.addEventListener('scroll', () => {
+              const nav = document.querySelector('nav');
+              
+              if (window.scrollY > lastScrollY) {
+                // Scrolling down
+                nav.classList.add('hidden');
+              } else {
+                // Scrolling up
+                nav.classList.remove('hidden');
+              }
+      
+              lastScrollY = window.scrollY;
+            });
+                      
+                document.querySelector('.nav__toggle').addEventListener('click', () => {
+              document.querySelector('.nav__links').classList.toggle('active');
+              document.querySelector('.nav__toggle').classList.toggle('active');
+            });
+            const menuButton = document.querySelector('.nav__toggle');
+          const navLinks = document.querySelector('.nav__links');
+
+          // Toggle the 'show' class on button click
+          menuButton.addEventListener('click', () => {
+              navLinks.classList.toggle('show');
+          });
+                
+          </script>
+        </body>
+      </html>
+    </body>
+</html>

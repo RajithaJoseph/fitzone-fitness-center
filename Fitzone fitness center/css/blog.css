@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "poppins";
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "poppins";
+  background-color: #111317;
+}
+
+.blog {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 30px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+  margin-top: 30px;
+}
+.blog-heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 0px;
+}
+.blog-heading span {
+  color: white;
+  font-size: 30px;
+}
+.blog-heading h3 {
+  font-size: 55px;
+  color: white;
+  font-weight: 500;
+}
+.blog-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0px;
+  flex-wrap: wrap;
+}
+.blog-box {
+  width: 350px;
+  background-color: #1f2125;
+  border: 2px solid #6a3093;
+  margin: 20px;
+  border-radius: 15px;
+}
+.blog-img {
+  width: 100%;
+  height: auto;
+}
+.blog-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+.blog-text {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+}
+.blog-text span {
+  color: #d1d5db;
+  font-size: 0.9rem;
+}
+.blog-text .blog-title {
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: white;
+}
+.blog-text .blog-title:hover {
+  color: #a044ff;
+  transition: all ease 0.3s;
+}
+.blog-text p {
+  color: #d1d5db;
+  font-size: 0.9rem;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin: 20px 0px;
+}
+.blog-text a {
+  color: white;
+}
+.blog-text a:hover {
+  color: #a044ff;
+  transition: all ease 0.3s;
+}
+
+/*-- Responsive-- */
+
+@media (max-width: 1250px) {
+  .blog-box {
+    width: 300px;
+  }
+}
+@media (max-width: 1100px) {
+  .blog-box {
+    width: 80%;
+  }
+}
+@media (max-width: 700px) {
+  .blog-box {
+    margin: 20px 10px;
+    width: 100%;
+  }
+  .blog {
+    padding: 20px;
+  }
+}

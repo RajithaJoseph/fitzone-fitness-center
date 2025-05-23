@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta
+      name="viewport"
+      content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/blog.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="icon" href="assets/logo2.png" type="image/x-icon" />
+    <title>Fitzone Fitness Center</title>
+
+    <style>
+      :root {
+        --primary-color: #111317;
+        --primary-color-light: #1f2125;
+        --primary-color-extra-light: #35373b;
+        --secondary-color: #a044ff;
+        --secondary-color-dark: #6a3093;
+        --text-light: #d1d5db;
+        --white: #ffffff;
+        --max-width: 1200px;
+      }
+    
+
+      h1 {
+        text-align: center;
+        color: var(--white);
+        margin-bottom: 50px;
+        margin-top: 90px;
+        font-family: "Poppins", "san serif";
+        font-size: 40px;
+        font-weight: 500;
+      }
+
+      .schedule-container {
+        width: 90%;
+        max-width: 1100px;
+        margin: auto;
+        border-collapse: collapse;
+      }
+
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        background-color: #fff;
+        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+        margin-bottom: 100px;
+        border: solid var(--secondary-color);
+      }
+
+      th,
+      td {
+        padding: 25px;
+        text-align: center;
+        border: 1px solid #ddd;
+      }
+
+      th {
+        background-color: var(--secondary-color);
+        color: white;
+        font-weight: bold;
+      }
+
+      tr:nth-child(even) {
+        background-color: #f2f2f2;
+      }
+
+      tr:hover {
+        background-color: #ddd;
+      }
+
+      @media (max-width: 600px) {
+        th,
+        td {
+          padding: 5px;
+          width: 100%;
+          max-width: 600px;
+        }
+      }
+    </style>
+    <style>
+      .footer__container {
+        background-color: black;
+      }
+
+      .footer__bar {
+        background-color: black;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <div class="nav__logo">
+        <a href="#"><img src="assets/logo2.png" alt="logo" /></a>
+      </div>
+      <button class="nav__toggle" aria-label="toggle navigation">
+        <span class="nav__hamburger"></span>
+        <span class="nav__hamburger"></span>
+        <span class="nav__hamburger"></span>
+      </button>
+      <ul class="nav__links">
+        <li class="link"><a href="index.html">Home</a></li>
+        <li class="link"><a href="index.html#service-header">Service</a></li>
+        <li class="link"><a href="programs.html">Programs</a></li>
+        <li class="link"><a href="plans.html">Memberships</a></li>
+        <li class="link"><a href="schedule.html">Schedule</a></li>
+        <li class="link"><a href="about us.html">About Us</a></li>
+        <li class="link"><a href="blogs.html">Blog</a></li>
+        <li class="link"><a href="contact us.php">Contact Us</a></li>
+      </ul>
+
+      <button class="btn" onclick="window.location.href='login_form.php'">
+        Login
+      </button>
+    </nav>
+    <div class="schedule-container">
+      <h1>Gym Class Schedule</h1>
+      <table>
+        <tr>
+          <th>Time</th>
+          <th>Monday</th>
+          <th>Tuesday</th>
+          <th>Wednesday</th>
+          <th>Thursday</th>
+          <th>Friday</th>
+          <th>Saturday</th>
+          <th>Sunday</th>
+        </tr>
+        <tr>
+          <td>6:00 AM - 8:00 AM</td>
+          <td>Yoga</td>
+          <td>HIIT</td>
+          <td>Yoga</td>
+          <td>HIIT</td>
+          <td>Yoga</td>
+          <td>Pilates</td>
+          <td>Rest Day</td>
+        </tr>
+        <tr>
+          <td>8:00 AM - 10:00 AM</td>
+          <td>Cardio</td>
+          <td>Strength</td>
+          <td>Cardio</td>
+          <td>Strength</td>
+          <td>Cardio</td>
+          <td>Zumba</td>
+          <td>Rest Day</td>
+        </tr>
+        <tr>
+          <td>10:00 PM - 12:00 PM</td>
+          <td>Boxing</td>
+          <td>HIIT</td>
+          <td>Boxing</td>
+          <td>HIIT</td>
+          <td>Boxing</td>
+          <td>Strength</td>
+          <td>Rest Day</td>
+        </tr>
+        <tr>
+          <td>12:00 PM - 14:00 PM</td>
+          <td>Pilates</td>
+          <td>Yoga</td>
+          <td>Pilates</td>
+          <td>Yoga</td>
+          <td>Pilates</td>
+          <td>Cardio</td>
+          <td>Rest Day</td>
+        </tr>
+        <tr>
+          <td>14:00 PM - 16:00 PM</td>
+          <td>Pilates</td>
+          <td>Yoga</td>
+          <td>Pilates</td>
+          <td>Yoga</td>
+          <td>Pilates</td>
+          <td>Cardio</td>
+          <td>Rest Day</td>
+        </tr>
+        <tr>
+          <td>16:00 PM - 18:00 PM</td>
+          <td>Pilates</td>
+          <td>Yoga</td>
+          <td>Pilates</td>
+          <td>Yoga</td>
+          <td>Pilates</td>
+          <td>Cardio</td>
+          <td>Rest Day</td>
+        </tr>
+      </table>
+    </div>
+
+    <footer class="section__container footer__container">
+      <div class="footer__col">
+        <div class="footer__logo">
+          <img src="assets/logo2.png" alt="logo" />
+        </div>
+        <p>
+          Begin your journey to a healthier, stronger you with our unbeatable
+          membership options. Let’s work, achieve, and succeed together!
+        </p>
+        <div class="footer__socials">
+          <a href="https://web.facebook.com"><i class="ri-facebook-fill"></i></a>
+          <a href="https://www.instagram.com"><i class="ri-instagram-line"></i></a>
+          <a href="https://x.com/"><i class="ri-twitter-fill"></i></a>
+        </div>
+      </div>
+      <div class="footer__col">
+        <h4>About Us</h4>
+        <a href="blogs.html">Blogs</a>
+        <a href="#">Security</a>
+        <a href="#">Careers</a>
+      </div>
+      <div class="footer__col">
+        <h4>Contact</h4>
+        <a href="contact us.php">Contact Us</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms & Conditions</a>
+        <a href="#">BMI Calculator</a>
+      </div>
+    </footer>
+    <div class="footer__bar">
+      Copyright © 2024 Designed by Rajitha Joseph. All rights reserved.
+    </div>
+    <script>
+      let lastScrollY = window.scrollY;
+
+      window.addEventListener("scroll", () => {
+        const nav = document.querySelector("nav");
+
+        if (window.scrollY > lastScrollY) {
+        
+          nav.classList.add("hidden");
+        } else {
+          
+          nav.classList.remove("hidden");
+        }
+
+        lastScrollY = window.scrollY;
+      });
+
+      document.querySelector(".nav__toggle").addEventListener("click", () => {
+        document.querySelector(".nav__links").classList.toggle("active");
+        document.querySelector(".nav__toggle").classList.toggle("active");
+      });
+      const menuButton = document.querySelector(".nav__toggle");
+      const navLinks = document.querySelector(".nav__links");
+
+      
+      menuButton.addEventListener("click", () => {
+        navLinks.classList.toggle("show");
+      });
+    </script>
+  </body>
+</html>
